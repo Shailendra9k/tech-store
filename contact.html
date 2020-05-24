@@ -74,12 +74,20 @@
         <div>
           <label for="subject">Subject:</label>
           <select id="subject">
-            <option value="returns">Returns</option>
-            <option value="faulty_item">Faulty item</option>
-            <option value="delivery">Delivery info</option>
-            <option value="order_tracking">Tracking my order</option>
-            <option value="advice">Advice</option>
-            <option value="other">Other</option>
+            <optgroup label="Product issues">
+              <option value="returns">Returns</option>
+              <option value="faulty_item">Faulty item</option>
+            </optgroup>
+
+            <optgroup label="Delivery">
+              <option value="delivery">Delivery info</option>
+              <option value="order_tracking">Tracking my order</option>
+            </optgroup>
+
+            <optgroup label="Other">
+              <option value="advice">Advice</option>
+              <option value="other">Other</option>
+            </optgroup>
           </select>
         </div>
         <div>

@@ -71,7 +71,7 @@
           >
           </textarea>
         </div>
-        <div>
+        <!-- <div>
           <label for="subject">Subject:</label>
           <select id="subject">
             <optgroup label="Product issues">
@@ -89,6 +89,23 @@
               <option value="other">Other</option>
             </optgroup>
           </select>
+        </div> -->
+        <div>
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            list="subjects"
+            placeholder="Enter your subject"
+          />
+          <datalist id="subjects">
+            <option value="returns"> </option>
+            <option value="faulty_item"> </option>
+            <option value="delivery"> </option>
+            <option value="order_tracking"> </option>
+            <option value="advice"> </option>
+            <option value="other"> </option>
+          </datalist>
         </div>
         <div>
           <p>Subscribe to future offers by:</p>

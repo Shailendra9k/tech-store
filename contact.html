@@ -51,7 +51,12 @@
           <tr>
             <td>
               <label for="name">Name:</label>
-              <input type="text" placeholder="Enter your name" id="name" />
+              <input
+                type="text"
+                placeholder="Enter your name"
+                id="name"
+                name="name"
+              />
             </td>
           </tr>
           <tr>
@@ -91,11 +96,21 @@
           <tr>
             <td>
               <label for="newsletter">Newsletter</label>
-              <input type="checkbox" id="newsletter" />
-              <label for="emailCheck">Email</label>
-              <input type="checkbox" id="emailCheck" />
+              <input
+                type="checkbox"
+                id="newsletter"
+                name="subscribe"
+                value="newsletter"
+              />
+              <label for="email">Email</label>
+              <input
+                type="checkbox"
+                id="email"
+                name="subscribe"
+                value="email"
+              />
               <label for="post">Post</label>
-              <input type="checkbox" id="post" />
+              <input type="checkbox" id="post" name="subscribe" value="post" />
             </td>
           </tr>
           <tr>
@@ -103,10 +118,20 @@
           </tr>
           <tr>
             <td>
-              <label for="phone">Phone</label>
-              <input type="radio" id="phone" />
+              <label for="phoneRespond">Phone</label>
+              <input
+                type="radio"
+                id="phoneRespond"
+                name="response"
+                value="phone"
+              />
               <label for="emailRespond">Email</label>
-              <input type="radio" id="emailRespond" />
+              <input
+                type="radio"
+                id="emailRespond"
+                name="response"
+                value="email"
+              />
             </td>
           </tr>
           <tr>

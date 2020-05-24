@@ -47,100 +47,57 @@
     <main>
       <h2>Contact Us:</h2>
       <form>
-        <table>
-          <tr>
-            <td>
-              <label for="name">Name:</label>
-              <input
-                type="text"
-                placeholder="Enter your name"
-                id="name"
-                name="name"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="email">Email:</label>
-              <input type="email" placeholder="Enter your email" id="email" />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="message">Message:</label>
-              <textarea
-                cols="30"
-                rows="5"
-                placeholder="Enter your message"
-                id="message"
-                name="message"
-              >
-              </textarea>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="subject">Subject:</label>
-              <input
-                type="text"
-                placeholder="Enter your subject"
-                id="subject"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Subscribe to future offers by:</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <label for="newsletter">Newsletter</label>
-              <input
-                type="checkbox"
-                id="newsletter"
-                name="subscribe"
-                value="newsletter"
-              />
-              <label for="email">Email</label>
-              <input
-                type="checkbox"
-                id="email"
-                name="subscribe"
-                value="email"
-              />
-              <label for="post">Post</label>
-              <input type="checkbox" id="post" name="subscribe" value="post" />
-            </td>
-          </tr>
-          <tr>
-            <td><p>How would you like us to respond?</p></td>
-          </tr>
-          <tr>
-            <td>
-              <label for="phoneRespond">Phone</label>
-              <input
-                type="radio"
-                id="phoneRespond"
-                name="response"
-                value="phone"
-              />
-              <label for="emailRespond">Email</label>
-              <input
-                type="radio"
-                id="emailRespond"
-                name="response"
-                value="email"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <input type="submit" />
-              <input type="reset" />
-            </td>
-          </tr>
-        </table>
+        <div>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            placeholder="Enter your name"
+            id="name"
+            name="name"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Enter your email" id="email" />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea
+            cols="30"
+            rows="5"
+            placeholder="Enter your message"
+            id="message"
+            name="message"
+          >
+          </textarea>
+        </div>
+        <div>
+          <label for="subject">Subject:</label>
+          <input type="text" placeholder="Enter your subject" id="subject" />
+        </div>
+        <div>
+          <p>Subscribe to future offers by:</p>
+          <label for="newsletter">Newsletter</label>
+          <input
+            type="checkbox"
+            id="newsletter"
+            name="subscribe"
+            value="newsletter"
+          />
+          <label for="email">Email</label>
+          <input type="checkbox" id="email" name="subscribe" value="email" />
+          <label for="post">Post</label>
+          <input type="checkbox" id="post" name="subscribe" value="post" />
+        </div>
+        <div>
+          <p>How would you like us to respond?</p>
+          <label for="phoneRespond">Phone</label>
+          <input type="radio" id="phoneRespond" name="response" value="phone" />
+          <label for="emailRespond">Email</label>
+          <input type="radio" id="emailRespond" name="response" value="email" />
+        </div>
+        <input type="submit" />
+        <input type="reset" />
       </form>
     </main>
 
